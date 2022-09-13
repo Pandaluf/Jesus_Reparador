@@ -1,0 +1,70 @@
+body{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+    grid-template-rows: 116px 2fr 210px;
+}
+header{
+    display: grid;
+    grid-area: header;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    background-color: #ffe162;
+    border: 5px black solid;
+    border-radius: 12px;
+    width: 1000px;
+}
+form > label {
+    font-family: Montserrat-Regular;
+    font-size: 20px;
+    margin-left: 20px;
+}
+form > h2{
+    font-family: Montserrat-Bold;
+    text-align: center;
+}
+input{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+footer{
+    display: grid;
+    grid-area: footer;
+}
+.contact{
+    display: flex;
+    width: 100%;
+    height: 20em;
+    background-image: url("../img/contact-picture.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+.contact > h1 {
+    font-size: 70px;
+    font-weight: 200;
+    color: #000000;
+    border: 3px solid black;
+    padding: 2rem 3rem;
+    backdrop-filter: blur(8px);
+}
+.schedule{
+    display: flex;
+    text-align: center;
+    border: 3px black solid;
+    border-radius: 150px;
+    padding: 20px;
+    gap: 20px;
+    background-color: limegreen;
+}
+
