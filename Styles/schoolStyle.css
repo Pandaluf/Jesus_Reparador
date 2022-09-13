@@ -53,10 +53,9 @@ header{
     border-radius: 10px;
     transition: all 0.3s;
 }
+
 .toolbar__links > ul > li > a:hover{
-    padding: 18px;
-    background-color: #262626; /* #262626 */
-    color:white;
+    padding: 20px;
 }
 ul ul {
     position: absolute;
@@ -72,11 +71,17 @@ ul ul li {
     background-color: goldenrod;
     border-radius: 4px;
 }
+ul ul li:hover{
+    background-color: black;
+}
 ul ul li a{
     padding: 14px;
     color: black;
     font-family: Montserrat-Bold;
     font-size: 13px;
+}
+ul ul li a:hover{
+    color: white;
 }
 ul li:hover ul {
     display: flex;
